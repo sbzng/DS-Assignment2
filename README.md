@@ -1,3 +1,44 @@
+## EDA Assignment - Distributed Systems.
+
+__Name:__ Shaobo Zang
+
+__YouTube Demo link__ - https://youtu.be/XGnVFcQ0EH8
 
 
-aws s3 cp test.txt s3://a-bucket/test.txt --metadata '{"x-amz-meta-cms-id":"34533452"}'
+
+### Phase 1.
+
+
++ Confirmation Mailer - Fully implemented.
+  + Lambda Function: confirmationMailer.ts
++ Rejection Mailer - Fully implemented.
+  + Lambda Function: rejectionMailer.ts
++ Process Image - Fully implemented.
+  + Lambda Function: processImage.ts
+
+### Phase 2.
+
+
++ Update Table - Fully implemented.
+  + Lambda Function: updateTable.ts
++ Delete Image - Fully implemented.
+  + Lambda Function: processDelete.ts
+
+### Phase 3.
+
+
++ Confirmation Mailer - Fully implemented.
+  + Lambda Function: confirmationMailer.ts
++ Rejection Mailer - Fully implemented.
+  + Lambda Function: rejectionMailer.ts
++ Process Image - Fully implemented.
+  + Lambda Function: processImage.ts
++ Delete Image - Fully implemented.
+  + Lambda Function: processDelete.ts
++ Update Table - Fully implemented.
+  + Lambda Function: updateTable.ts
++ Published to one SNS topic...- Fully implemented.
++ Delete Mailer - Fully implemented.
+  + Lambda Function: deleteMailer.ts
+
+
