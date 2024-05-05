@@ -57,10 +57,10 @@ function sendEmailParams({ name, email, message }: ContactDetails): SendEmailCom
             },
             Subject: {
                 Charset: "UTF-8",
-                Data: "New image Upload", // Email subject line
+                Data: "Upload failed", 
             },
         },
-        Source: SES_EMAIL_FROM, // The email address that is sending the email
+        Source: SES_EMAIL_FROM, 
     };
 }
 // Function to generate HTML content for the email body

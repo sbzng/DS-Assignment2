@@ -29,9 +29,9 @@ export const handler: SQSHandler = async (event) => {
         // Store image metadata in DynamoDB
         await ddbDocClient.send(
           new PutCommand({
-            TableName: process.env.DYNAMODB_TABLE_NAME,
+            TableName: "Images",
             Item: {
-              filename: srcKey, // Use the file name as the primary key
+              ImageName: srcKey, // Use the file name as the primary key
             },
           })
         );
